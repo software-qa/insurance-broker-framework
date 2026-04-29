@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npx playwright test
 
 # Run a single test file
-npx playwright test tests/registeruser.spec.js
+npx playwright test tests/registerlogin.spec.js --headed chrome
 
 # Run a single test by name
 npx playwright test -g "Register User"
